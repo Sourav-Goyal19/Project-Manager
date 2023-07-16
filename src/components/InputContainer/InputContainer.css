@@ -1,0 +1,43 @@
+.IC{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+
+.IC label{
+    font-size: 1.2rem;
+}
+
+.input-field{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.input-field input{
+    flex: 1;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border: 2px solid #eee;
+    border-radius: 6px;
+    transition: all 0.45s ease;
+}
+
+.icon{
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}
+
+.input-field input:hover{
+    border-color: #362cf9;
+}
+
+.input-field:hover .icon svg{
+    color: #362cf9;
+}
+
+.input-field:focus .icon svg{
+    color: black;
+}

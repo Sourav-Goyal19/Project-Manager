@@ -1,0 +1,83 @@
+.project-section {
+    display: flex;
+}
+
+.project-details-heading {
+    font-size: 1.5rem;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side-inner {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.image-section {
+    flex: 2;
+}
+
+.image-section img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.link-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link-section svg {
+    height: 30px;
+    width: 30px;
+    color: #000;
+    transition: 200ms;
+}
+
+.link-section svg:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-side h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.right-side h3 {
+    font-weight: normal;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+.right-side ul {
+    padding-left: 20px;
+}
+
+.ProjectOpen{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .project-section{
+        flex-direction: column;
+        align-items: center;
+    }
+}
