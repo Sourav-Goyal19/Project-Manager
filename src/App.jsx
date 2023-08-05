@@ -7,10 +7,9 @@ import Account from './components/Account/Account';
 import { auth, getUser } from './components/Firebase/firebase';
 
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-import { useContext, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import { GlobalState } from './components/Global/Context';
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
