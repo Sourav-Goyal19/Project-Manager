@@ -1,7 +1,7 @@
 <h1>Project Manager</h1>
 <p>This is a project management tool built using React. It allows users to create, edit, and delete projects. The website is hosted on Vercel, a cloud platform for static sites and serverless functions.</p>
 
-<a href="https://project-manager-react.vercel.app">Visit the website here!</a>
+<a href="https://project-manager-react.vercel.app" target="_blank">Visit the website here!</a>
 
 <h2>Features</h2>
 <ul>
